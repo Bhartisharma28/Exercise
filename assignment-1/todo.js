@@ -10,6 +10,7 @@ addtodo.onkeyup = ()=>{
     addBtn.classList.add("active"); 
   }else{
     addBtn.classList.remove("active"); 
+    
   }
 }
 
