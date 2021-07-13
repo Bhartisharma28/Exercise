@@ -1,0 +1,65 @@
+ul {
+    list-style-type: none;
+    margin: 30;
+    padding: 30;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(236, 167, 167);
+  }
+  .main{
+      margin: 50px
+  }
+  .join{
+      font-weight: bold;
+      font-size: 30px;
+      margin-right:100px;
+      margin-left:80px;
+      float: right;
+  }
+  form{
+    font-size: 20px;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .main input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+  }
+  .join input[type=text]{
+    float: left;
+  }
